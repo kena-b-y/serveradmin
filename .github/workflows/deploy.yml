@@ -33,7 +33,7 @@ jobs:
            script: |
             mkdir project1
             cd project1
-            git clone https://github.com/kena-b-y/serveradmin.git
+            git clone git@github.com:kena-b-y/serveradmin.git
             echo 'Deployment successful to digital ocean'
          
 
