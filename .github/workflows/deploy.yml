@@ -31,8 +31,9 @@ jobs:
 #            passphrase: ${{ secrets.PASSPHRASE }}
            
            script: |
-            mkdir serveradmin
-            cd serveradmin
+            mkdir groupwork
+            chmod 777 groupwork
+            cd groupwork
             git clone https://github.com/kena-b-y/serveradmin.git
             echo 'Deployment successful to digital ocean'
          
